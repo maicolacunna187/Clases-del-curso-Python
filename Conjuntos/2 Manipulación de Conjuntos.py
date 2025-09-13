@@ -35,37 +35,3 @@ print(set_countries)
 set_countries.clear()
 print(len(set_countries))
 
-"""
-Resumen ⚡🐍
-
-Conjuntos 🧩: 
-    colecciones desordenadas sin duplicados.
-
-Agregar elementos ➕:
-
-    set_countries = {'Colombia', 'Mexico', 'Chile'}
-    set_countries.add('Perú')  # añade un solo elemento
-
-
-Agregar varios elementos 🔄:
-
-    nuevos_paises = {'Argentina', 'Ecuador', 'Perú'}
-    set_countries.update(nuevos_paises)  # añade varios sin duplicar
-
-
-Eliminar elementos ➖:
-
-    set_countries.remove('Colombia')  # lanza error si no existe
-    set_countries.discard('ARG')      # no lanza error si no existe
-
-
-Vaciar conjunto 🧹:
-
-    set_countries.clear()
-    print(set_countries)  # set()
-
-
-Ventaja 💡: control total sobre colecciones, con métodos seguros y 
-            eficientes para añadir, actualizar y eliminar elementos.
-
-"""
